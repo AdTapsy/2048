@@ -14,6 +14,7 @@
 #import "M2ScoreView.h"
 #import "M2Overlay.h"
 #import "M2GridView.h"
+#import "AdTapsy.h"
 
 @implementation M2ViewController {
   IBOutlet UIButton *_restartButton;
@@ -147,6 +148,10 @@
 
 - (void)endGame:(BOOL)won
 {
+  // Show intertitial on game over screen
+  [AdTapsy showInterstitial:self];
+    
+    
   _overlay.hidden = NO;
   _overlay.alpha = 0;
   _overlayBackground.hidden = NO;
