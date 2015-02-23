@@ -1,4 +1,4 @@
-# The iOS version of 2048, made using SpriteKit. Integrated with AdTapsy SDK for demo 
+The iOS version of 2048, made using SpriteKit. Integrated with AdTapsy SDK for demo 
 http://www.adtapsy.com
 
 # 2048
