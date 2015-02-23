@@ -1,3 +1,6 @@
+# The iOS version of 2048, made using SpriteKit. Integrated with AdTapsy SDK for demo 
+http://www.adtapsy.com
+
 # 2048
 
 This is a derivative and the iOS version of the game 2048. In the very unlikely case that you don't know what it is, you can check it out [here](https://github.com/gabrielecirulli/2048).
